@@ -8,7 +8,7 @@
         "phpci": {
             "pluginNamespace": "meadsteve\\PhpciPlugins\\",
             "suppliedPlugins": [
-                {"name": "Example", "class-name": "ExamplePlugin"}
+                {"name": "Example", "class": "ExamplePlugin"}
             ]
         }
     }
