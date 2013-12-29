@@ -1,0 +1,15 @@
+{
+    "name"             : "meadsteve/example-phpci-plugin",
+    "description"      : "",
+    "minimum-stability": "stable",
+    "type"             : "library",
+
+    "extra": {
+        "phpci": {
+            "pluginNamespace": "meadsteve\\PhpciPlugins\\",
+            "suppliedPlugins": [
+                {"name": "Example", "class-name": "ExamplePlugin"}
+            ]
+        }
+    }
+}
